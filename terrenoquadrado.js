@@ -1,6 +1,13 @@
 function getResult(ground) {
   let cont = 0;
   let verify = true;
+  let contador = 0;
+
+  ground.reduce((final, actual, index) => {
+    if(final === actual) {
+
+    }
+  }, 0);
 
   
 

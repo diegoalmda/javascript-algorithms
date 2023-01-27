@@ -11,6 +11,10 @@ let valid = false;
       if(x[i] <= x[i+1]) {
           valid = true
       }
+      
+      if(x[i+1] < x[i]) {
+          valid = false
+      }
   }
 
   console.log(valid);

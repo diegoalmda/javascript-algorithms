@@ -15,10 +15,6 @@ function findEqualLetters(word, letter) {
   return indexList;
 }
 
-
-const a = [1, 2, 4];
-const b = [1, 2, 4];
-
 const equalsCheck = (a, b) => {
   return JSON.stringify(a) === JSON.stringify(b);
 }
