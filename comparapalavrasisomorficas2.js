@@ -11,7 +11,6 @@ function findEqualLetters(word, letter) {
     }
     return final;
   }, []);
-
   return indexList;
 }
 
@@ -31,4 +30,4 @@ var isIsomorphic = function(s, t) {
   return result;
 };
 
-console.log(isIsomorphic('carro', 'ferro'));
+console.log(isIsomorphic('car', 'iso'));
